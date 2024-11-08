@@ -66,7 +66,7 @@ public class UserController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> SeeProfileId(string id)
     {
-        var user = await _userService.See(id);
+        var user = await _userService.getData(id);
 
         return Ok(user);
     }

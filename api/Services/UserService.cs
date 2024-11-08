@@ -79,7 +79,7 @@ public class UserService
         //    throw new ApplicationException("Erro no final");
     }
 
-    public async Task<User> See(string id)
+    public async Task<User> getData(string id)
     {
         var data = await _userManager.FindByIdAsync(id);
 

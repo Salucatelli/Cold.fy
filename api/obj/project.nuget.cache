@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OOsOfAPICbg=",
+  "dgSpecHash": "epPu2zJ+PfU=",
   "success": true,
-  "projectFilePath": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bandoDeDados\\backend\\ma2_banco_de_dados.csproj",
+  "projectFilePath": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\ma2_banco_de_dados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saluc\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\saluc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

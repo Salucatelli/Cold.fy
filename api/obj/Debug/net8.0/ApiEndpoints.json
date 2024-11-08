@@ -20,6 +20,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
+    "Method": "GetArtists",
+    "RelativePath": "Artist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ma2_banco_de_dados.Controllers.UserController",
     "Method": "SeeProfileId",
     "RelativePath": "User",

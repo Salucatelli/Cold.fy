@@ -22,6 +22,21 @@ namespace ma2_banco_de_dados.Migrations
 
             MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
 
+            modelBuilder.Entity("ArtistMusicalGenre", b =>
+                {
+                    b.Property<int>("ArtistsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MusicalGenresId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ArtistsId", "MusicalGenresId");
+
+                    b.HasIndex("MusicalGenresId");
+
+                    b.ToTable("ArtistMusicalGenre");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -154,7 +169,7 @@ namespace ma2_banco_de_dados.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ma2_banco_de_dados.Models.Image", b =>
+            modelBuilder.Entity("ma2_banco_de_dados.Models.Artist", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -162,13 +177,41 @@ namespace ma2_banco_de_dados.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<byte[]>("image")
+                    b.Property<DateOnly>("BirthDate")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("longblob");
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Images");
+                    b.ToTable("Artists");
+                });
+
+            modelBuilder.Entity("ma2_banco_de_dados.Models.MusicalGenre", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MusicalGenres");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.User", b =>
@@ -240,6 +283,21 @@ namespace ma2_banco_de_dados.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("ArtistMusicalGenre", b =>
+                {
+                    b.HasOne("ma2_banco_de_dados.Models.Artist", null)
+                        .WithMany()
+                        .HasForeignKey("ArtistsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ma2_banco_de_dados.Models.MusicalGenre", null)
+                        .WithMany()
+                        .HasForeignKey("MusicalGenresId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

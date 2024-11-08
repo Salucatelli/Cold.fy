@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ma2_banco_de_dados.props" />
+</Project>

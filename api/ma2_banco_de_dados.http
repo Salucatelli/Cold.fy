@@ -1,0 +1,6 @@
+@ma2_banco_de_dados_HostAddress = http://localhost:5270
+
+GET {{ma2_banco_de_dados_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

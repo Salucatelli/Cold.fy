@@ -20,6 +20,69 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ma2_banco_de_dados.Controllers.AlbumController",
+    "Method": "GetAlbums",
+    "RelativePath": "Album",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.AlbumController",
+    "Method": "CreateAlbum",
+    "RelativePath": "Album",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ma2_banco_de_dados.Data.Dtos.CreateAlbumDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.AlbumController",
+    "Method": "AddMusic",
+    "RelativePath": "Album/addmusic/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.AlbumController",
+    "Method": "DeleteAlbum",
+    "RelativePath": "Album/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
     "Method": "GetArtists",
     "RelativePath": "Artist",
@@ -27,6 +90,190 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
+    "Method": "CreateArtist",
+    "RelativePath": "Artist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ma2_banco_de_dados.Data.Dtos.CreateArtistDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
+    "Method": "DeleteArtist",
+    "RelativePath": "Artist/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
+    "Method": "UpdateArtist",
+    "RelativePath": "Artist/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ma2_banco_de_dados.Data.Dtos.UpdateArtistDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.MusicController",
+    "Method": "GetMusics",
+    "RelativePath": "Music",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.MusicController",
+    "Method": "CreateMusic",
+    "RelativePath": "Music",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ma2_banco_de_dados.Data.Dtos.CreateMusicDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.MusicController",
+    "Method": "DeleteMusic",
+    "RelativePath": "Music/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.MusicalGenreController",
+    "Method": "GetGenre",
+    "RelativePath": "MusicalGenre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.MusicalGenreController",
+    "Method": "CreateMusicalGenre",
+    "RelativePath": "MusicalGenre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ma2_banco_de_dados.Data.Dtos.CreateMusicalGenreDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.MusicalGenreController",
+    "Method": "DeleteMusicalGenre",
+    "RelativePath": "MusicalGenre/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "GetPlaylist",
+    "RelativePath": "Playlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "CreatePlaylist",
+    "RelativePath": "Playlist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ma2_banco_de_dados.Data.Dtos.CreatePlaylistDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "AddMusic",
+    "RelativePath": "Playlist/addmusic/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "musicid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

@@ -9,6 +9,9 @@ public class UserDbContext : IdentityDbContext<User>
 {
     public DbSet<Artist> Artists { get; set; }
     public DbSet<MusicalGenre> MusicalGenres { get; set; }
+    public DbSet<Music> Music { get; set; }
+    public DbSet<Album> Album { get; set; }
+    public DbSet<Playlist> Playlist { get; set; }
 
     public UserDbContext(DbContextOptions<UserDbContext> options) : base(options)
     {

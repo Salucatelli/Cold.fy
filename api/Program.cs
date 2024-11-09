@@ -8,8 +8,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options => options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
+//builder.Services.AddControllers().AddJsonOptions(x =>
+//   x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
 // Add services to the container.
 
@@ -62,6 +68,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies()); // Mapper
 builder.Services.AddScoped<UserService>(); // Injeção de dependencia do userService
 builder.Services.AddScoped<TokenService>(); // Injeção de dependencia do tokenService
+builder.Services.AddScoped<ArtistService>(); // Injeção de dependencia do artistService
 
 //Fixing cors
 builder.Services.AddCors(options =>

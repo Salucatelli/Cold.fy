@@ -29,55 +29,6 @@ profile.addEventListener("click", (e) => {  //metodo para pegar oId
         });
 });
 
-// var data;
-// let token;
-
-// //Send token button
-// botaoLogin.addEventListener("click", async function (event) {
-//     event.preventDefault();
-
-//     var nome = document.getElementById("username").value;
-//     var senha = document.getElementById("password").value;
-//     var p = document.getElementById("token-text");
-
-//     var data = {
-//         username: nome,
-//         password: senha
-//     }
-
-//     await axios.post("http://localhost:3000/user/login", data) //Faz login na api
-//         .then((response) => {
-//             token = response.data
-//             localStorage.setItem("token", token);
-
-//             window.location = "../Pages/profile.html";
-//             //p.innerText = token;
-//         })
-//         .catch(err => {
-//             console.log(err);
-//             p.innerText = "Login ou senha inválidos.";
-//         });
-// });
-
-//Authenticate button
-// botaoAuthenticate.addEventListener("click", async function (e) {
-//     e.preventDefault();
-
-//     var t = document.getElementById("token").value;
-//     var p = document.getElementById("TokenResponse");
-
-//     await axios.get("http://localhost:3000/access", // endpoint para verificar se está logado
-//         {
-//             headers: {
-//                 "Authorization": `Bearer ${t}`
-//             }
-//         }).then(response => {
-//             p.innerText = response.data.token; token;
-//             console.log(response);
-//         })
-//         .catch(err => console.log(err));
-// })
-
 
 //Adicionando a lista de Musica, Artistas e Generos
 var listaMusicas = document.getElementById("listaMusicas");

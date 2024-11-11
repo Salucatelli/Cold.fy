@@ -106,8 +106,7 @@
               "RelativeToolTip": "Data\\Dtos\\CreateArtistDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T16:14:31.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T16:14:31.652Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAIwEQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T15:49:45.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T15:49:45.28Z"
             },
             {
               "$type": "Document",
@@ -156,8 +154,7 @@
               "RelativeToolTip": "Models\\Playlist.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:23:35.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T18:23:35.567Z"
             },
             {
               "$type": "Document",
@@ -169,8 +166,7 @@
               "RelativeToolTip": "Controllers\\PlaylistController.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowDoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:20:41.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T18:20:41.164Z"
             },
             {
               "$type": "Document",
@@ -182,8 +178,7 @@
               "RelativeToolTip": "Controllers\\MusicController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:21:06.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T23:21:06.327Z"
             },
             {
               "$type": "Document",
@@ -193,7 +188,7 @@
               "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
               "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\ArtistController.cs",
               "RelativeToolTip": "Controllers\\ArtistController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAqwDkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T00:40:44.878Z",
               "EditorCaption": ""
@@ -208,8 +203,7 @@
               "RelativeToolTip": "Data\\Dtos\\CreatePlaylistDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:22:45.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T18:22:45.506Z"
             },
             {
               "$type": "Document",
@@ -257,8 +251,7 @@
               "RelativeToolTip": "Models\\Artist.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T12:06:37.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T12:06:37.291Z"
             },
             {
               "$type": "Document",

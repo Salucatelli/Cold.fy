@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ma2_banco_de_dados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5410ca284805794ea6998e883fa7eaeb306f5450")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67d5f84f57306ba9631a64876fc277138c611ddb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ma2_banco_de_dados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ma2_banco_de_dados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

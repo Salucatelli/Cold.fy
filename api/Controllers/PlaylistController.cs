@@ -2,6 +2,7 @@
 using ma2_banco_de_dados.Data;
 using ma2_banco_de_dados.Data.Dtos;
 using ma2_banco_de_dados.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,7 +23,7 @@ public class PlaylistController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetPlaylist()
+    public async Task<IActionResult> GetPlaylists()
     {
         try
         {
@@ -39,7 +40,45 @@ public class PlaylistController : ControllerBase
         }
     }
 
+    [HttpGet("id")]
+    public async Task<IActionResult> GetPlaylistById([FromQuery] int id)
+    {
+        try
+        {
+            var playlist = _context.Playlist.Include(a => a.Musics).Where(p => p.Id == id);
+
+            if (playlist is null)
+                throw new ApplicationException("Erro");
+
+            return Ok(playlist);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpGet("user")]
+    [Authorize]
+    public async Task<IActionResult> GetUserPlaylists([FromQuery] string id)
+    {
+        try
+        {
+            var playlists = _context.Playlist.Where(p => p.UserId == id).Include(a => a.Musics).ToList();
+
+            if (playlists is null)
+                throw new ApplicationException("Erro");
+
+            return Ok(playlists);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> CreatePlaylist(CreatePlaylistDto dto)
     {
         try
@@ -59,8 +98,9 @@ public class PlaylistController : ControllerBase
         }
     }
 
-    [HttpPut("addmusic/{id}")]
-    public async Task<IActionResult> AddMusic([FromQuery] int musicid, int id)
+    [HttpPut("addmusic/{id}/{musicid}")]
+    [Authorize]
+    public async Task<IActionResult> AddMusic(int musicid, int id)
     {
         try
         {
@@ -71,7 +111,7 @@ public class PlaylistController : ControllerBase
             music.Playlists.Add(playlist);
 
             _context.SaveChanges();
-            return Ok(playlist);
+            return Ok("Adicionado com Sucesso");
         }
         catch (Exception ex)
         {

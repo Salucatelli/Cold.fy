@@ -44,6 +44,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost("addpictrue")]
+    [Authorize]
     public async Task<IActionResult> AddProfilePic([FromForm] string id, [FromForm] IFormFile file)
     {
         byte[] dadosImagem = new byte[file.Length];
@@ -57,6 +58,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet("id")]
+    [Authorize]
     public async Task<IActionResult> SeeProfile()
     {
         string id = HttpContext.User.FindFirstValue("id");
@@ -64,6 +66,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> SeeProfileId(string id)
     {
         var user = await _userService.getData(id);

@@ -3,6 +3,7 @@ using ma2_banco_de_dados.Data;
 using ma2_banco_de_dados.Data.Dtos;
 using ma2_banco_de_dados.Models;
 using ma2_banco_de_dados.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -43,7 +44,26 @@ public class ArtistController : ControllerBase
         }
     }
 
+    [HttpGet("id")]
+    public async Task<IActionResult> GetArtistById([FromQuery] int id)
+    {
+        try
+        {
+            var artist = _context.Artists.Include(a => a.Musics).Where(p => p.Id == id);
+
+            if (artist is null)
+                throw new ApplicationException("Erro");
+
+            return Ok(artist);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
     [HttpPost]
+    
     public async Task<IActionResult> CreateArtist([FromBody] CreateArtistDto dto)
     {
         try
@@ -66,6 +86,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
+    [Authorize]
     public async Task<IActionResult> UpdateArtist([FromBody] UpdateArtistDto dto, int id)
     {
         try
@@ -83,6 +104,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpDelete("delete/{id}")]
+    [Authorize]
     public async Task<IActionResult> DeleteArtist(int id)
     {
         try

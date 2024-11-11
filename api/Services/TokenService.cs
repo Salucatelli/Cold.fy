@@ -24,7 +24,7 @@ public class TokenService
 
         var token = new JwtSecurityToken  /* token em si */
             (
-            expires: DateTime.Now.AddMinutes(10),
+            expires: DateTime.Now.AddMinutes(10000),
             claims: claims,
             signingCredentials: credentials
             );

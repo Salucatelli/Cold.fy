@@ -126,6 +126,22 @@
   },
   {
     "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
+    "Method": "GetArtistById",
+    "RelativePath": "Artist/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.ArtistController",
     "Method": "UpdateArtist",
     "RelativePath": "Artist/update/{id}",
     "HttpMethod": "PUT",
@@ -231,7 +247,7 @@
   },
   {
     "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
-    "Method": "GetPlaylist",
+    "Method": "GetPlaylists",
     "RelativePath": "Playlist",
     "HttpMethod": "GET",
     "IsController": true,
@@ -258,7 +274,7 @@
   {
     "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
     "Method": "AddMusic",
-    "RelativePath": "Playlist/addmusic/{id}",
+    "RelativePath": "Playlist/addmusic/{id}/{musicid}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -266,12 +282,44 @@
       {
         "Name": "musicid",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "GetPlaylistById",
+    "RelativePath": "Playlist/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "GetUserPlaylists",
+    "RelativePath": "Playlist/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

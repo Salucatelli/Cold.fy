@@ -2,6 +2,7 @@
 using ma2_banco_de_dados.Data;
 using ma2_banco_de_dados.Data.Dtos;
 using ma2_banco_de_dados.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -30,7 +31,8 @@ public class MusicController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> CreateMusic(CreateMusicDto dto)
+    [Authorize]
+    public async Task<IActionResult> CreateMusic([FromBody] CreateMusicDto dto)
     {
         try
         {

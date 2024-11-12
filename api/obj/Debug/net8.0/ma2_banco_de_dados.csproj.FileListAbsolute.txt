@@ -364,3 +364,5 @@ D:\Prog\Faculdade\Banaco de Dados\ma2_bncoDeDados\api\obj\Debug\net8.0\refint\ma
 D:\Prog\Faculdade\Banaco de Dados\ma2_bncoDeDados\api\obj\Debug\net8.0\ma2_banco_de_dados.pdb
 D:\Prog\Faculdade\Banaco de Dados\ma2_bncoDeDados\api\obj\Debug\net8.0\ma2_banco_de_dados.genruntimeconfig.cache
 D:\Prog\Faculdade\Banaco de Dados\ma2_bncoDeDados\api\obj\Debug\net8.0\ref\ma2_banco_de_dados.dll
+D:\Prog\Faculdade\Banaco de Dados\ma2_bncoDeDados\api\bin\Debug\net8.0\DotNetEnv.dll
+D:\Prog\Faculdade\Banaco de Dados\ma2_bncoDeDados\api\bin\Debug\net8.0\Sprache.dll

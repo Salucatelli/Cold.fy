@@ -118,4 +118,45 @@ public class PlaylistController : ControllerBase
             return BadRequest(ex);
         }
     }
+
+    [HttpDelete("deletemusic")]
+    [Authorize]
+    public async Task<IActionResult> DeleteMusic([FromQuery] int playlistid, [FromQuery] int musicid)
+    {
+        try
+        {
+            var playlist = _context.Playlist.Include(p => p.Musics).FirstOrDefault(p => p.Id == playlistid);
+            var music = _context.Music.FirstOrDefault(m => m.Id == musicid);
+
+            playlist.Musics.Remove(music);
+            music.Playlists.Remove(playlist);
+
+            _context.SaveChanges();
+
+            return Ok(_context.Playlist.FirstOrDefault(p => p.Id == playlistid));
+        }
+        catch (Exception ex)
+        {
+            return BadRequest("Erro ao deletar");
+        }
+    }
+
+    [HttpDelete("delete")]
+    [Authorize]
+    public async Task<IActionResult> DeletePlaylist([FromQuery] int playlistid)
+    {
+        try
+        {
+            var playlist = _context.Playlist.FirstOrDefault(p => p.Id == playlistid);
+
+            _context.Playlist.Remove(playlist);
+            _context.SaveChanges();
+
+            return Ok(playlist);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest("Erro ao deletar");
+        }
+    }
 }

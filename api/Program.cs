@@ -10,6 +10,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Text.Json.Serialization;
 
+//Loading .env
+DotNetEnv.Env.Load();
+
 var builder = WebApplication.CreateBuilder(args);
 
 //builder.Services.Configure<Microsoft.AspNetCore.Http.Json.JsonOptions>(options => options.SerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
@@ -20,7 +23,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 //DataBase Settings--------------------------
-var connectionString = builder.Configuration.GetConnectionString("UserConnection");
+var connectionString = Environment.GetEnvironmentVariable("ConnectionString");
 
 builder.Services.AddDbContext<UserDbContext>(opts =>
 {

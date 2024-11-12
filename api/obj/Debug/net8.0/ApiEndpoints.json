@@ -294,6 +294,43 @@
   },
   {
     "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "DeletePlaylist",
+    "RelativePath": "Playlist/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
+    "Method": "DeleteMusic",
+    "RelativePath": "Playlist/deletemusic",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "musicid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ma2_banco_de_dados.Controllers.PlaylistController",
     "Method": "GetPlaylistById",
     "RelativePath": "Playlist/id",
     "HttpMethod": "GET",

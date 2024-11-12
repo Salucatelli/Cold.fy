@@ -63,7 +63,7 @@ public class ArtistController : ControllerBase
     }
 
     [HttpPost]
-    
+    [Authorize]
     public async Task<IActionResult> CreateArtist([FromBody] CreateArtistDto dto)
     {
         try

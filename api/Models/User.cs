@@ -10,12 +10,9 @@ public class User : IdentityUser
     [Required]
     public DateTime BirthDate { get; set; }
     [AllowNull]
-    public byte[]? ProfilePicture { get; set; } = null;
-    [AllowNull]
     [JsonIgnore]
     public List<Playlist> Playlists { get; set; }
 
     //Serve para usar todas as propriedades do usuario do Identity
     public User() : base() { }
-    
 }

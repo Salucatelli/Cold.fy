@@ -43,19 +43,19 @@ public class UserController : ControllerBase
         return Ok(token);
     }
 
-    [HttpPost("addpictrue")]
-    [Authorize]
-    public async Task<IActionResult> AddProfilePic([FromForm] string id, [FromForm] IFormFile file)
-    {
-        byte[] dadosImagem = new byte[file.Length];
-        await file.OpenReadStream().ReadAsync(dadosImagem, 0, (int)file.Length);
+    //[HttpPost("addpictrue")]
+    //[Authorize]
+    //public async Task<IActionResult> AddProfilePic([FromForm] string id, [FromForm] IFormFile file)
+    //{
+    //    byte[] dadosImagem = new byte[file.Length];
+    //    await file.OpenReadStream().ReadAsync(dadosImagem, 0, (int)file.Length);
 
-        var dto = new AddProfilePictureDto { ProfilePicture = dadosImagem };
-        var user = await _userService.AddProfilPicture(id, dto);
+    //    var dto = new AddProfilePictureDto { ProfilePicture = dadosImagem };
+    //    var user = await _userService.AddProfilPicture(id, dto);
 
-        //return File(teste, "image/jpeg");
-        return Ok(user);
-    }
+    //    //return File(teste, "image/jpeg");
+    //    return Ok(user);
+    //}
 
     [HttpGet("id")]
     [Authorize]

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ma2_banco_de_dados.Data;
 
@@ -11,9 +12,11 @@ using ma2_banco_de_dados.Data;
 namespace ma2_banco_de_dados.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241112173604_tirandoFoto")]
+    partial class tirandoFoto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,7 +37,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasIndex("MusicsId");
 
-                    b.ToTable("AlbumMusic", (string)null);
+                    b.ToTable("AlbumMusic");
                 });
 
             modelBuilder.Entity("ArtistMusicalGenre", b =>
@@ -49,7 +52,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasIndex("MusicalGenresId");
 
-                    b.ToTable("ArtistMusicalGenre", (string)null);
+                    b.ToTable("ArtistMusicalGenre");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -196,7 +199,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasIndex("PlaylistsId");
 
-                    b.ToTable("MusicPlaylist", (string)null);
+                    b.ToTable("MusicPlaylist");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.Album", b =>
@@ -225,7 +228,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasIndex("ArtistId");
 
-                    b.ToTable("Album", (string)null);
+                    b.ToTable("Album");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.Artist", b =>
@@ -249,7 +252,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Artists", (string)null);
+                    b.ToTable("Artists");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.Music", b =>
@@ -274,7 +277,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasIndex("ArtistId");
 
-                    b.ToTable("Music", (string)null);
+                    b.ToTable("Music");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.MusicalGenre", b =>
@@ -295,7 +298,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MusicalGenres", (string)null);
+                    b.ToTable("MusicalGenres");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.Playlist", b =>
@@ -321,7 +324,7 @@ namespace ma2_banco_de_dados.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Playlist", (string)null);
+                    b.ToTable("Playlist");
                 });
 
             modelBuilder.Entity("ma2_banco_de_dados.Models.User", b =>

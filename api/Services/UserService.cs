@@ -48,36 +48,36 @@ public class UserService
         return token;
     }
 
-    public async Task<User> AddProfilPicture(string id, AddProfilePictureDto dto)
-    {
-        var user = await _userManager.FindByIdAsync(Convert.ToString(id));
+    //public async Task<User> AddProfilPicture(string id, AddProfilePictureDto dto)
+    //{
+    //    var user = await _userManager.FindByIdAsync(Convert.ToString(id));
 
-        if (dto.ProfilePicture == null)
-        {
-            throw new ApplicationException("Vazio");
-        }
+    //    if (dto.ProfilePicture == null)
+    //    {
+    //        throw new ApplicationException("Vazio");
+    //    }
 
-        user.ProfilePicture = dto.ProfilePicture;
-        var data = await _userManager.UpdateAsync(user);
+    //    user.ProfilePicture = dto.ProfilePicture;
+    //    var data = await _userManager.UpdateAsync(user);
 
-        if (!data.Succeeded)
-        {
-            throw new ApplicationException("Erro no final");
-        }
+    //    if (!data.Succeeded)
+    //    {
+    //        throw new ApplicationException("Erro no final");
+    //    }
 
-        var user2 = await _userManager.FindByIdAsync(Convert.ToString(id));
+    //    var user2 = await _userManager.FindByIdAsync(Convert.ToString(id));
 
-        return user2;
+    //    return user2;
 
 
-        //return userNovo.ProfilePicture;
+    //    //return userNovo.ProfilePicture;
 
-        //var data = _userManager.(userNovo);
+    //    //var data = _userManager.(userNovo);
 
-        //if (!data.Succeeded)
-        //    Console.WriteLine("Erro aqui");
-        //    throw new ApplicationException("Erro no final");
-    }
+    //    //if (!data.Succeeded)
+    //    //    Console.WriteLine("Erro aqui");
+    //    //    throw new ApplicationException("Erro no final");
+    //}
 
     public async Task<User> getData(string id)
     {

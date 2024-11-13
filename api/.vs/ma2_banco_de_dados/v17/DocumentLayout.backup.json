@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\dtos\\createplaylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -118,11 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\CreateUserDto.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserDbContext.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\UserDbContext.cs",
               "RelativeDocumentMoniker": "Data\\UserDbContext.cs",
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -158,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Playlist.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Playlist.cs",
               "RelativeDocumentMoniker": "Models\\Playlist.cs",
@@ -170,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlaylistController.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\PlaylistController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlaylistController.cs",
@@ -194,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ArtistController.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\ArtistController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
@@ -206,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreatePlaylistDto.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreatePlaylistDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\CreatePlaylistDto.cs",
@@ -236,14 +236,14 @@
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T19:42:28.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -267,20 +267,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAlwE8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAlwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:51:38.958Z",
+              "WhenOpened": "2024-11-08T15:51:38.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T15:51:21.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AddProfilePictureDto.cs",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddProfilePictureDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\AddProfilePictureDto.cs",
@@ -292,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": ".env",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\.env",
               "RelativeDocumentMoniker": ".env",
@@ -301,18 +313,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-12T17:29:03.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:51:21.462Z"
             },
             {
               "$type": "Document",

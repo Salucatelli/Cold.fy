@@ -27,6 +27,10 @@ axios.get("http://localhost:3000/artist/id", {
     });
 }).catch(err => console.log(err));
 
+//botão para adicionar novas musicas
+var novaMusica = document.getElementById("novaMusica");
+
+novaMusica.href = "/Pages/createMusic.html?artistaid=" + id;
 
 //Botão para criar musica
 // criarMusica.addEventListener('click', (e) => { //Metodo para adicionar musica

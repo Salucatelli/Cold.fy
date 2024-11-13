@@ -12,7 +12,7 @@ public class Artist
     public string Description { get; set; }
     public DateOnly BirthDate { get; set; }
    
-    public List<MusicalGenre> MusicalGenres { get; set; }
+    public List<MusicalGenre> MusicalGenres { get; set; } = new List<MusicalGenre>();
     public List<Album> Albums { get; set; } 
     public List<Music> Musics { get; set; }
 }

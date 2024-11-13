@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criar Genero Musical</title>
+    <title>Novo Genero Musical</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Images/icones/logo_kaduu.ico" type="image/x-icon">
 </head>
 
-<body>
-    <form action="">
-        <h3>Criar Genero Musical</h3>
-        <h3 id="loginErrorMessage" style="color: red;"></h3>
-        <input type="text" id="nome" placeholder="Nome">
-        <input type="text" id="descricao" placeholder="Descrição">
-        <button id="criar">Criar</button>
-    </form>
+<main>
+    <body>
+        <form action="">
+            <h1>Novo Genero Musical</h1>
+            
+            <p>
+                <input type="text" id="nome" placeholder="Genero">
+                <input type="text" id="descricao" placeholder="Descrição">
+            </p>
 
-    <h2 id="mensagem"></h2>
-
-    <br><br>
-
-    <a href="../index.html">Voltar para o menu</a>
-</body>
+            <button id="criar" style="width: 100%;">Criar</button>
+            <h3 id="loginErrorMessage" style="color: red;"></h3>
+            <h3 id="mensagem"></h3>
+        </form>
+        <hr>
+        <p>
+            <a href="../Pages/profile.html"> Meu Perfil</a>
+        <br><a href="../index.html">Voltar para o menu</a>
+        </p>
+    </body>
+</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
     integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="

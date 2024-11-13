@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Images/icones/logo_kaduu.ico" type="image/x-icon">
+
 </head>
 
-<body>
-    <form action="">
-        <h2 id="loginErrorMessage" style="color: red;"></h2>
-        <input type="text" id="username" placeholder="username">
-        <input type="text" id="password" placeholder="password">
-        <button id="login">Login</button>
-    </form>
-</body>
+<main>
+    <body>
+        <form action="">
+            <h1>Login</h1>
+            <p>
+                <input type="text" id="username" placeholder="usuário">
+                <input type="text" id="password" placeholder="senha">
+            </p>
+            <button id="login" style="width: 100%;">Login</button>
+            <h3 id="loginErrorMessage" style="color: red;"></h3>
+        </form>
+    </body>
+</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
     integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="

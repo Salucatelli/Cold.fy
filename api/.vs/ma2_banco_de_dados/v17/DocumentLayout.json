@@ -1,114 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\",
+  "WorkspaceRootPath": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\dtos\\createplaylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\createplaylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\dtos\\addprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\addprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\data\\dtos\\createplaylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\createplaylistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\data\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\data\\dtos\\addprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\addprofilepicturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\dtos\\createartistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\data\\dtos\\createartistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\createartistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\profiles\\musicprofile\\musicprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\profiles\\musicprofile\\musicprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:profiles\\musicprofile\\musicprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\profiles\\albumprofile\\albumprfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\profiles\\albumprofile\\albumprfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:profiles\\albumprofile\\albumprfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\profiles\\playlistprofile\\playlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\profiles\\playlistprofile\\playlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:profiles\\playlistprofile\\playlistprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\data\\dtos\\addmusicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\data\\dtos\\addmusicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:data\\dtos\\addmusicdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\profiles\\musicalgenreprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\profiles\\musicalgenreprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:profiles\\musicalgenreprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|d:\\prog\\faculdade\\banaco de dados\\ma2_bncodedados\\api\\profiles\\usuarioprofile\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|c:\\users\\guilh\\onedrive\\documentos\\github\\ma2_bncodedados\\api\\profiles\\usuarioprofile\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F638C42-A458-42AB-AEB9-8CF53E934689}|ma2_banco_de_dados.csproj|solutionrelative:profiles\\usuarioprofile\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,15 +121,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-12T17:45:22.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\CreateUserDto.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateUserDto.cs",
               "RelativeToolTip": "Data\\Dtos\\CreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,11 +149,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserDbContext.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\UserDbContext.cs",
               "RelativeDocumentMoniker": "Data\\UserDbContext.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\UserDbContext.cs",
               "RelativeToolTip": "Data\\UserDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,11 +161,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,11 +173,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Playlist.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Playlist.cs",
               "RelativeDocumentMoniker": "Models\\Playlist.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Playlist.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Playlist.cs",
               "RelativeToolTip": "Models\\Playlist.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -170,11 +185,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PlaylistController.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\PlaylistController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\PlaylistController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlaylistController.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\PlaylistController.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\PlaylistController.cs",
               "RelativeToolTip": "Controllers\\PlaylistController.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAqwKEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,9 +199,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "MusicController.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\MusicController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\MusicController.cs",
               "RelativeDocumentMoniker": "Controllers\\MusicController.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\MusicController.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\MusicController.cs",
               "RelativeToolTip": "Controllers\\MusicController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,11 +209,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ArtistController.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\ArtistController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\ArtistController.cs",
               "RelativeDocumentMoniker": "Controllers\\ArtistController.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\ArtistController.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\ArtistController.cs",
               "RelativeToolTip": "Controllers\\ArtistController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,11 +221,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CreatePlaylistDto.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreatePlaylistDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreatePlaylistDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\CreatePlaylistDto.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreatePlaylistDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreatePlaylistDto.cs",
               "RelativeToolTip": "Data\\Dtos\\CreatePlaylistDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,9 +235,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "MusicProfile.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\MusicProfile\\MusicProfile.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\MusicProfile\\MusicProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\MusicProfile\\MusicProfile.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\MusicProfile\\MusicProfile.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\MusicProfile\\MusicProfile.cs",
               "RelativeToolTip": "Profiles\\MusicProfile\\MusicProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,24 +245,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T19:42:28.329Z",
+              "WhenOpened": "2024-11-09T19:42:28.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T15:51:21.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\appsettings.json",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -257,9 +284,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "PlaylistProfile.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\PlaylistProfile\\PlaylistProfile.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\PlaylistProfile\\PlaylistProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\PlaylistProfile\\PlaylistProfile.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\PlaylistProfile\\PlaylistProfile.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\PlaylistProfile\\PlaylistProfile.cs",
               "RelativeToolTip": "Profiles\\PlaylistProfile\\PlaylistProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -267,24 +294,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAlwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:51:38.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T15:51:38.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AddProfilePictureDto.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddProfilePictureDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddProfilePictureDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\AddProfilePictureDto.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddProfilePictureDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddProfilePictureDto.cs",
               "RelativeToolTip": "Data\\Dtos\\AddProfilePictureDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -292,35 +318,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 27,
               "Title": ".env",
               "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\.env",
-              "RelativeDocumentMoniker": ".env",
               "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\.env",
-              "RelativeToolTip": ".env",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-12T17:29:03.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T15:51:21.462Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 24,
               "Title": "AddMusicDto.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddMusicDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddMusicDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\AddMusicDto.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddMusicDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\AddMusicDto.cs",
               "RelativeToolTip": "Data\\Dtos\\AddMusicDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -330,9 +342,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "AlbumPrfile.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\AlbumProfile\\AlbumPrfile.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\AlbumProfile\\AlbumPrfile.cs",
               "RelativeDocumentMoniker": "Profiles\\AlbumProfile\\AlbumPrfile.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\AlbumProfile\\AlbumPrfile.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\AlbumProfile\\AlbumPrfile.cs",
               "RelativeToolTip": "Profiles\\AlbumProfile\\AlbumPrfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -342,9 +354,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -354,9 +366,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Artist.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Artist.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Artist.cs",
               "RelativeDocumentMoniker": "Models\\Artist.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Artist.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Artist.cs",
               "RelativeToolTip": "Models\\Artist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -366,9 +378,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "CreateArtistDto.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateArtistDto.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateArtistDto.cs",
               "RelativeDocumentMoniker": "Data\\Dtos\\CreateArtistDto.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateArtistDto.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Data\\Dtos\\CreateArtistDto.cs",
               "RelativeToolTip": "Data\\Dtos\\CreateArtistDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -378,9 +390,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "AlbumController.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\AlbumController.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\AlbumController.cs",
               "RelativeDocumentMoniker": "Controllers\\AlbumController.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Controllers\\AlbumController.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Controllers\\AlbumController.cs",
               "RelativeToolTip": "Controllers\\AlbumController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAwFAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,9 +402,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Music.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Music.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Music.cs",
               "RelativeDocumentMoniker": "Models\\Music.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Music.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Music.cs",
               "RelativeToolTip": "Models\\Music.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAqwBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -402,9 +414,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Services\\TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Services\\TokenService.cs",
               "RelativeToolTip": "Services\\TokenService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -414,9 +426,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Album.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Album.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Album.cs",
               "RelativeDocumentMoniker": "Models\\Album.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Models\\Album.cs",
               "RelativeToolTip": "Models\\Album.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -426,9 +438,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "MusicalGenreProfile.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\MusicalGenreProfile.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\MusicalGenreProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\MusicalGenreProfile.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\MusicalGenreProfile.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\MusicalGenreProfile.cs",
               "RelativeToolTip": "Profiles\\MusicalGenreProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -438,9 +450,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "UserProfile.cs",
-              "DocumentMoniker": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\UsuarioProfile\\UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\UsuarioProfile\\UserProfile.cs",
               "RelativeDocumentMoniker": "Profiles\\UsuarioProfile\\UserProfile.cs",
-              "ToolTip": "D:\\Prog\\Faculdade\\Banaco de Dados\\ma2_bncoDeDados\\api\\Profiles\\UsuarioProfile\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\guilh\\OneDrive\\Documentos\\GitHub\\ma2_bncoDeDados\\api\\Profiles\\UsuarioProfile\\UserProfile.cs",
               "RelativeToolTip": "Profiles\\UsuarioProfile\\UserProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

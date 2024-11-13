@@ -12,22 +12,22 @@ var profile = document.getElementById("profile");
 var t = localStorage.getItem("token");
 var playlistid;
 
-profile.addEventListener("click", (e) => {  //metodo para pegar oId
-    e.preventDefault();
+// profile.addEventListener("click", (e) => {  //metodo para pegar oId
+//     e.preventDefault();
 
-    axios.get(`http://localhost:3000/user/id`,
-        {
-            headers: {
-                "Authorization": `Bearer ${t}`
-            }
-        }).then(response => {
-            playlistid = response.data;
-            window.location = "../Pages/profile.html";
-        }).catch(err => {
-            console.log(err);
-            window.location = "../Pages/login.html";
-        });
-});
+//     axios.get(`http://localhost:3000/user/id`,
+//         {
+//             headers: {
+//                 "Authorization": `Bearer ${t}`
+//             }
+//         }).then(response => {
+//             playlistid = response.data;
+//             window.location = "../Pages/profile.html";
+//         }).catch(err => {
+//             console.log(err);
+//             window.location = "../Pages/login.html";
+//         });
+// });
 
 
 //Adicionando a lista de Musica, Artistas e Generos

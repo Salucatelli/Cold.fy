@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playlist</title>
+    <title>Playlists</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Images/icones/logo_kaduu.ico" type="image/x-icon">
 </head>
 
-<body>
-    <h1 id="nomePlaylist"></h1>
+<main>
+    <body>
+        <h1 id="nomePlaylist"></h1>
+        <h4>
+            <ul id="musicas"></ul>
+        </h4>
+    
+    <h2>Músicas Disponiveis:</h2>
+        <h4>
+            <ul id="listaMusicasDisponiveis"></ul>
+        </h4>
+    
+        <hr>
+        <h2>Adicionar Musicas</h2>
+        <h3 id="loginErrorMessage" style="color: red;"></h3>
 
-    <ul id="musicas"></ul>
-
-    <br><br>
-
-    <h2>Musicas Disponiveis</h2>
-    <ul id="listaMusicasDisponiveis"></ul>
-
-    <h2>Adicionar Musicas</h2>
-
-    <h3 id="loginErrorMessage" style="color: red;"></h3>
-    <input type="text" id="musicaId" placeholder="Id da Musica">
-    <button id="criar">Adicionar</button>
-
-    <br><br>
-
-    <button id="deletarPlaylist">Deletar Playlist</button>
-
-    <br><br>
-
-    <a href="../Pages/userPlaylists.html">Voltar</a>
-</body>
+        <p><input type="text" id="musicaId" placeholder="ID Musica"></p>
+        <button id="criar" style="width: 100%;">Adicionar</button>
+        <hr>
+    
+        <button id="deletarPlaylist" style="width: 100%;">Deletar Playlist</button>
+    
+        <hr>
+        <p><a href="../Pages/userPlaylists.html">Voltar</a></p>
+    </body>
+</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
     integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="

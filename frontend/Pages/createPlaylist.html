@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Playlist</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Images/icones/logo_kaduu.ico" type="image/x-icon">
 </head>
 
-<body>
-    <form action="">
-        <h2>Criar Plylist</h2>
-        <h3 id="loginErrorMessage" style="color: red;"></h3>
-        <input type="text" id="nome" placeholder="Nome">
-        <input type="text" id="descricao" placeholder="Descrição">
-        <button id="criar">Criar</button>
-    </form>
-
-    <h2 id="mensagem"></h2>
-
-    <br><br>
-
-    <a href="../index.html">Voltar para o menu</a>
-</body>
+<main>
+    <body>
+        <form action="">
+            <h2>Nova Playlist</h2>
+            
+            <p>
+                <input type="text" id="nome" placeholder="Playlist">
+                <input type="text" id="descricao" placeholder="Descrição">
+            </p>
+            
+            <button id="criar" style="width: 100%;">Criar</button>
+            <h3 id="loginErrorMessage" style="color: red;"></h3>
+            <h3 id="mensagem"></h3>
+        </form>
+        
+        <hr>
+        <p>
+            <a href="../Pages/profile.html"> Meu Perfil</a>
+        <br><a href="../index.html">Menu Principal</a>
+        </p>
+    </body>
+</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
     integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="

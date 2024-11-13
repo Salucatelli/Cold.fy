@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../Images/icones/logo_kaduu.ico" type="image/x-icon">
+    
 </head>
 
-<body>
-    <h1>Seu Perfil</h1>
-    <h2 id="username"></h2>
+<main>
+    <body>
+        <h1 id="username"></h1>
 
-    <br>
+ <h2><a href="./userPlaylists.html">Minhas Playlists</a></h2>
+ <h2><a href="../index.html">Menu Principal</a></h2>
 
-    <a href="./userPlaylists.html">Minhas Playlists</a>
+ <p><a href="../index.html" id="sair" style="padding: 20px; color: #EF554C;">Sair</a></p>
 
-    <br><br>
-
-    <a href="../index.html">Voltar para o menu</a>
-
-    <br><br>
-
-    <a href="../index.html" id="sair">Sair</a>
-</body>
+    </body>
+</main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"
     integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g=="
@@ -51,7 +49,7 @@
                         id: id
                     }
                 }).then(response => {
-                    username.innerText = "Username: " + response.data.userName;
+                    username.innerText = response.data.userName;
 
                     // console.log(response.data);
                 })

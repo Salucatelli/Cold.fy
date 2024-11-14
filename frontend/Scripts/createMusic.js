@@ -2,6 +2,13 @@ var botaoMusica = document.getElementById("criarMusica");
 var t = localStorage.getItem("token");
 var mensagem = document.getElementById("loginErrorMessageMusic");
 
+var urlParams = new URLSearchParams(window.location.search);
+var id = urlParams.get('artistaid');
+
+if (id != null) {
+    var artistaid = document.getElementById("artistaId");
+    artistaid.value = id;
+}
 
 botaoMusica.addEventListener("click", async function (e) {
     e.preventDefault();

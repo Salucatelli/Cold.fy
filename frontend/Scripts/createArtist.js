@@ -21,13 +21,20 @@ criar.addEventListener("click", (e) => { //Criar um Artista
     var nome = document.getElementById("nome").value;
     var descricao = document.getElementById("descricao").value;
     var generoId = document.getElementById("generoId").value;
+    var data;
 
-    console.log(nome, descricao, generoId)
-
-    var data = {
-        Name: nome,
-        Description: descricao,
-        MusicalGenreId: generoId
+    if (!generoId) {
+        data = {
+            Name: nome,
+            Description: descricao
+        }
+    }
+    else {
+        data = {
+            Name: nome,
+            Description: descricao,
+            MusicalGenreId: generoId
+        }
     }
 
     axios.post("http://localhost:3000/artist", data,

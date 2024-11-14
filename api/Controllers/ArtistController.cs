@@ -69,10 +69,13 @@ public class ArtistController : ControllerBase
         try
         {
             var genreId = dto.MusicalGenreId;
-            var genre = await _context.MusicalGenres.FirstOrDefaultAsync(g => g.Id == genreId);
-
             Artist artist = _mapper.Map<Artist>(dto);
-            artist.MusicalGenres = new List<MusicalGenre>() { genre };
+
+            if (genreId != null)
+            {
+                var genre = await _context.MusicalGenres.FirstOrDefaultAsync(g => g.Id == genreId);
+                artist.MusicalGenres.Add(genre);
+            }
 
             _context.Artists.Add(artist);
             _context.SaveChanges();
@@ -81,7 +84,7 @@ public class ArtistController : ControllerBase
         }
         catch (Exception ex)
         {
-            return BadRequest(ex.Message);
+            return Ok("ta nullo");
         }
     }
 

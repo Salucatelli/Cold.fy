@@ -4,32 +4,43 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --primary-color: #e1ccec;
+    --secondary-color: #b982d6;
+    --main-color: #582A72;
+    --font-size-large: 1.5em;
+  }
+  
 body{
- background-image: linear-gradient(to right, #7ECEFC, #2186C4 );
+ background-color: #2a1038;
+
 }
 
 main{
     font-size: 50px;
-    background-color: #FFF6E6;
-    width: 1300px;
+    background-color: var(--main-color);
+    width: 80%;
     padding: 15px;
     margin: auto;
     margin-top: 4%;
     border-radius: 15px;
-    box-shadow: 7px 10px 20px #3f464d69;
+    box-shadow: 7px 10px 20px #18092080;
 /*       vertical horizontal espalhamento, cor*/
 }
 
+hr{
+    color: #2a1038;
+}
 h1{
     font-size: 50%;
-    color: #3F464D;
+    color: var(--secondary-color);
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);
 }
 
 h2{
     font-size: 50%;
-    color: #3F464D;
+    color: var(--secondary-color);
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.151);
 }
@@ -47,19 +58,62 @@ h4{
 p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30%;
+    font-style: normal;
     text-align: justify;
     text-align: center;
+    text-decoration: none;
 }
 
 a{
     font-size: 20px;
-    color: #3F464D;
+    color: var(--primary-color);
     font-style: normal;
     text-align: center;
+    text-decoration: none;
 }
+button{
+    font-size: 30%;
+    color: var(--primary-color);
+    background-image: linear-gradient(to bottom, var(--secondary-color), #763c97);
+    text-shadow: 1px 1px 2px #2a1038;
+    width: 25%;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 6px;
+    border: 0cap;
+}
+
+ul{
+    color: #e1ccec;
+    font-size: 35%;
+    text-align: justify;
+}
+
+input{
+    background-color: #e1ccec;
+    border-color: #e9f3bd;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+}
+
+/* 
+text-decoration: none;  TIRA O SUBLINHADO DO LINK
+width: 50%;		        PODE ALTERAR LARGURA
+border-radius: 5px;	    ARREDONDAMENTO DE PONTA
+padding: 5px;		    PODE ALTERAR ALTURA
+font-size: 30%;		    TAMANHO DAS LETRAS
+
+
 button{
     font-size: 30%;
     color: rgb(224, 224, 224);
     background-image: linear-gradient(to top, #3F464D, #707070);
     border: 0cap;
+    width: 30%;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
 }
+
+depois pode colocar a tag <button> em todos os links */

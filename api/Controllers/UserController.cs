@@ -43,6 +43,7 @@ public class UserController : ControllerBase
         return Ok(token);
     }
 
+    //implementar depois
     //[HttpPost("addpictrue")]
     //[Authorize]
     //public async Task<IActionResult> AddProfilePic([FromForm] string id, [FromForm] IFormFile file)
@@ -73,37 +74,4 @@ public class UserController : ControllerBase
 
         return Ok(user);
     }
-
-    //[HttpPost("image")]
-    //public async Task<IActionResult> ImageSend(IFormFile file)
-    //{
-    //    if (file == null)
-    //    {
-    //        return BadRequest("Arquivo não encontrado");
-    //    }
-
-    //    byte[] dadosImagem = new byte[file.Length];
-    //    await file.OpenReadStream().ReadAsync(dadosImagem, 0, (int)file.Length);
-
-    //    var imagem = new Image
-    //    {
-    //        image = dadosImagem
-    //    };
-
-    //    _context.Images.Add(imagem);
-    //    _context.SaveChanges();
-
-    //    return Ok("Imagem cadastrada com Sucesso!");
-    //}
-
-    //[HttpGet("image")]
-    //public async Task<IActionResult> SeeImage()
-    //{
-    //    var imagem = await _context.Images.FirstOrDefaultAsync();
-
-    //    if (imagem == null)
-    //        return BadRequest("Imagem não econtrada");
-
-    //    return File(imagem.image, "image/jpeg");
-    //}
 }
